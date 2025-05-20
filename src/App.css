@@ -1,0 +1,61 @@
+:root{
+    --my-green:rgba(12, 138, 77, 1);
+    --mid-green:rgba(61, 161, 113, 1);
+    --light-green:rgba(148, 193, 171, 1);
+    --opacity-green:rgba(180, 219, 200, 0.75);
+
+    --my-orange:rgba(228, 92, 16, 1);
+    --light-orange:rgba(248, 181, 143, 1);
+    --opacity-orange:rgba(246, 215, 197, 0.75);
+    --dark-orange:rgba(103, 41, 7, 1);
+
+    --my-gray:rgba(249, 249, 249, 1);
+    --dark-gray:rgba(62, 62, 62, 1);
+}
+
+.signup-btn{
+    background-color: var(--mid-green);
+    border: 3px solid var(--mid-green);
+    color: white;
+    padding: 3px 25px;
+}
+
+.signup-btn:hover{
+    background-color: var(--light-green);
+}
+
+.login-btn{
+    background-color: var(--my-orange);
+     border: 3px solid var(--my-orange);
+    color: white;
+    padding: 3px 25px;
+}
+
+.login-btn:hover{
+    background-color: var(--light-orange);
+}
+
+
+main{
+    min-height: 80svh;
+    background-image: url("background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.slogan{
+    line-height: 55px;
+}
+.demand-btn{
+    background-color: var(--mid-green);
+    border: 3px solid var(--mid-green);
+    color: white;
+    padding: 3px 28px;
+}
+
+.demand-btn:hover{
+    background-color: var(--light-green);
+     background-color: var(--my-orange);
+     border: 3px solid var(--my-orange);
+}

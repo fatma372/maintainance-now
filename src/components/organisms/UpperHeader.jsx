@@ -1,0 +1,33 @@
+import React from 'react'
+import SocialMediaIcons from '../molecules/SocialMediaIcons'
+
+import { useSelector, useDispatch } from 'react-redux';
+import {setLang} from '../../services/store/languageSlice';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEarthAmericas } from '@fortawesome/free-solid-svg-icons';
+
+export default function UpperHeader() {
+
+    const {lang} = useSelector((state) => state.language);
+    const languageName=lang==="ar"?"العربية":"English";
+    const dispatch = useDispatch();
+
+    const handleLang = () => {
+        dispatch(setLang(lang === "ar" ? "en" : "ar"));
+    }
+  return (
+    <div className='flex justify-start items-center px-9 bg-[var(--light-green)]'dir="ltr">
+        <div className="py-1 pr-1">
+            <SocialMediaIcons/>
+        </div>
+
+        <button className="border-l-3 border-[var(--my-green)] px-2 my-1 pb-1" 
+        onClick={() => handleLang()}>
+            {languageName}
+               <FontAwesomeIcon icon={faEarthAmericas} size="md" className="ml-2"/> {/* Adjust size as needed */}
+
+        </button>
+
+    </div>
+  )
+}
