@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
     <main id='home'>
-        <div dir={dir} className='flex md:flex-row flex-col justify-center items-center md:px-20 p-7 gap-3'>
+        <div dir={dir} className='flex md:flex-row flex-col justify-center items-center md:px-30 p-7 gap-3'>
             <div className="text flex flex-col gap-7">
                 <h5 className="text-xl text-[var(--light-green)]">
                     {t.welcome}..

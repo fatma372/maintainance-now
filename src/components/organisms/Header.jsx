@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <>
         <UpperHeader/>
-        <header dir={dir} className='flex md:flex-row flex-col gap-5 justify-between items-center px-4 py-2 bg-[var(--my-gray)]'>
+        <header dir={dir} className='flex md:flex-row flex-col gap-5 justify-between items-center px-13 py-2 bg-[var(--my-gray)]'>
             <div className="logo">
                 <img src="logo.png" className='w-17 h-20' alt="logo" />
             </div>

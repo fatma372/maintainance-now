@@ -17,14 +17,14 @@ export default function OurFeatures() {
                 {/* First Column */}
                 <div className="first-col flex md:flex-col gap-4">
                     {/* Feature 1 */}
-                    <div className="p-3 hover:shadow-lg flex flex-col justify-center items-center transition-shadow duration-300 hover:-translate-y-1">
+                    <div className="p-3  flex flex-col justify-center items-center transition-shadow duration-300 hover:-translate-y-1">
                         <img src="save-time.png" alt="save time" />
                         <h3 className="text-xl line-clamp-2 font-semibold text-gray-800 mb-3">{t.features[0].title}</h3>
                         <p className="text-gray-600 line-clamp-3 leading-relaxed">{t.features[0].description}.</p>
                     </div>
 
                     {/* Feature 2 */}
-                    <div className="p-3 hover:shadow-lg flex flex-col justify-center items-center transition-shadow duration-300 hover:-translate-y-1">
+                    <div className="p-3  flex flex-col justify-center items-center transition-shadow duration-300 hover:-translate-y-1">
                         <img src="save-money.png" alt="save money" />
                         <h3 className="text-xl line-clamp-2 font-semibold text-gray-800 mb-3">{t.features[1].title}</h3>
                         <p className="text-gray-600 line-clamp-3 leading-relaxed">{t.features[1].description}.</p>
@@ -42,14 +42,14 @@ export default function OurFeatures() {
                 {/* third column */}
                 <div className="third-col  flex md:flex-col gap-4">
                     {/* Feature 3 */}
-                    <div className="p-3 hover:shadow-lg flex flex-col justify-center items-center transition-shadow duration-300 hover:-translate-y-1">
+                    <div className="p-3  flex flex-col justify-center items-center transition-shadow duration-300 hover:-translate-y-1">
                         <img src="easy-contact.png" alt="easy contact" />
                         <h3 className="text-xl line-clamp-2 font-semibold text-gray-800 mb-3">{t.features[2].title}</h3>
                         <p className="text-gray-600 line-clamp-3 leading-relaxed">{t.features[2].description}.</p>
                     </div>
 
                     {/* Feature 4 */}
-                    <div className="p-3 hover:shadow-lg flex flex-col justify-center items-center transition-shadow duration-300 hover:-translate-y-1">
+                    <div className="p-3  flex flex-col justify-center items-center transition-shadow duration-300 hover:-translate-y-1">
                         <img src="guarantee.png" alt="service guarantee" />
                         <h3 className="text-xl line-clamp-2 font-semibold text-gray-800 mb-3">{t.features[3].title}</h3>
                         <p className="text-gray-600 line-clamp-3 leading-relaxed">{t.features[3].description}.</p>

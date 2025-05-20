@@ -42,7 +42,7 @@
 
 main{
     min-height: 80svh;
-    background-image: url("background.svg");
+    background-image: url("background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

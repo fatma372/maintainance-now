@@ -59,7 +59,31 @@ const initialState = {
             title:"Pay ",
             description:"and enter your personal data"
           },]
-          }
+          },
+      ourServices:{
+        title:"Our Services",
+        button:"Demand a service",
+        services:[
+          {
+            title:"Electricity"
+          },
+          {
+            title:"Plumbing"
+          },
+          {
+            title:"Painting"
+          },
+          {
+            title:"TV and Radio"
+          },
+          {
+            title:"Heating"
+          },
+          {
+            title:"Cleaning"
+          },
+        ]
+      }
     },
     ar: {
       header: {
@@ -116,6 +140,31 @@ const initialState = {
           {
             title:"قم بالدفع",
             description:"وإدخال بياناتك الشخصية"
+          }
+        ]
+
+      },
+      ourServices:{
+        title:"خدماتنا",
+        button:"اطلب خدمة",
+        services:[
+          {
+            title:"الكهرباء"
+          },
+          {
+            title:"النجارة"
+          },
+          {
+            title:"السباكة"
+          },
+          {
+            title:"دش و تليفزيون"
+          },
+          {
+            title:"التكييف"
+          },
+          {
+            title:"تنظيف المنازل"
           }
         ]
 

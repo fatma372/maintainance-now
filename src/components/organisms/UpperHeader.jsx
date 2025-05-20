@@ -14,6 +14,8 @@ export default function UpperHeader() {
 
     const handleLang = () => {
         dispatch(setLang(lang === "ar" ? "en" : "ar"));
+
+        document.dir = lang === "ar" ? "ltr" : "rtl";
     }
   return (
     <div className='flex justify-start items-center px-9 bg-[var(--light-green)]'dir="ltr">
