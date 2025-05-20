@@ -24,7 +24,7 @@ export default function UpperHeader() {
         <button className="border-l-3 border-[var(--my-green)] px-2 my-1 pb-1" 
         onClick={() => handleLang()}>
             {languageName}
-               <FontAwesomeIcon icon={faEarthAmericas} size="md" className="ml-2"/> {/* Adjust size as needed */}
+               <FontAwesomeIcon icon={faEarthAmericas} size="md" className="mx-2"/> {/* Adjust size as needed */}
 
         </button>
 

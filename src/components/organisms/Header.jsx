@@ -28,7 +28,7 @@ export default function Header() {
 
             <div className="buttons flex gap-2">
                 <button className="signup-btn rounded-lg transition-bg duration-300">{t.signup}</button>
-                <button className="login-btn border-3 border-[var(--my-orange)] bg-[var(--my-orange)] hover:bg-[var(--light-orange)] text-white rounded-lg transition-bg duration-300">{t.login}</button>
+                <button className="login-btn border-3  hover:bg-[var(--light-orange)] text-white rounded-lg transition-bg duration-300">{t.login}</button>
             </div>
 
         </header>

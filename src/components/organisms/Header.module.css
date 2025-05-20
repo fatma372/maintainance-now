@@ -1,3 +1,7 @@
 .navLink:hover{
     color: var(--my-green);
 }
+
+.navLink:focus-visible{
+    color: var(--my-green);
+}

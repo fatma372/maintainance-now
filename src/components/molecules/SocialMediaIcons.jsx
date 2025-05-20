@@ -12,7 +12,7 @@ import {
 
 const SocialMediaIcons = () => {
   return (
-    <div className="social-media-icons w-fit" >
+    <div className="social-media-icons w-fit pt-1" >
       {/* Facebook */}
       <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faFacebook} className='border-1 rounded-full p-1 m-1' size="sm" />
