@@ -52,9 +52,9 @@ export default function Header() {
                     <Link to="/signup" className="signup-btn rounded-lg transition-bg duration-300 bg-[var(--my-green)] text-white px-4 py-2 hover:bg-[var(--dark-green)]">
                         {t.signup}
                     </Link>
-                    <button className="login-btn border-3 border-[var(--my-green)] text-[var(--my-green)] px-4 py-2 hover:bg-[var(--light-orange)] hover:text-white rounded-lg transition-all duration-300">
+                    <Link to="/login" className="login-btn border-3 border-[var(--my-green)] text-[var(--my-green)] px-4 py-2 hover:bg-[var(--light-orange)] hover:text-white rounded-lg transition-all duration-300">
                         {t.login}
-                    </button>
+                    </Link>
                 </div>
             </nav>
         </header>

@@ -67,7 +67,7 @@ export default function Signup() {
 
     return (
        <div className="signup-page py-5">
-         <div className="form-container bg-white md:w-[80svw] md:px-20 px-5 shadow-lg rounded-lg py-5 m-5 md:mx-auto">
+         <div className="form-container bg-[var(--my-gray)] md:w-[80svw] md:px-20 px-5 shadow-lg rounded-lg py-5 m-5 md:mx-auto">
             <Link to={'/'}><FontAwesomeIcon icon={faReply} className='text-[var(--my-green)] hover:text-[var(--dark-green)] transition-colors' /> </Link>
             <div className="photo-upload-container flex flex-col items-center">
                 <div className="photo-upload">
@@ -188,30 +188,6 @@ export default function Signup() {
                                 onClick={() => togglePasswordVisibility('confirmPassword')}
                             />
                         </div>
-
-                    {/* <div className="form-group w-full">
-                    <input
-                        type="password"
-                        id="password"
-                        name="password"
-                        value={formData.password}
-                        onChange={handleChange}
-                        required
-                    />
-                    <label htmlFor="password">كلمة المرور</label>
-                </div>
-
-                <div className="form-group w-full">
-                    <input
-                        type="password"
-                        id="confirmPassword"
-                        name="confirmPassword"
-                        value={formData.confirmPassword}
-                        onChange={handleChange}
-                        required
-                    />
-                    <label htmlFor="confirmPassword">تأكيد كلمة المرور</label>
-                </div> */}
                 </div>
 
                 {

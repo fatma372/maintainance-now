@@ -39,14 +39,13 @@
     color: white;
 }
 
-.signup-page{
+.signup-page, .login-page{
     background-color: rgba(0, 0, 0, 0.626);
     position: absolute;
     width: 100%;
     max-width: 100svw;
     top: 0px;
     left: 0px;
-
 }
 
 
@@ -71,4 +70,36 @@ main{
     background-color: var(--light-green);
      background-color: var(--my-orange);
      border: 3px solid var(--my-orange);
+}
+
+.before-and-after::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 29px;
+    height: 1px;
+    width: 35%;
+    background-color: rgba(167, 165, 165, 0.993);
+
+}
+
+.before-and-after::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 29px;
+    height: 1px;
+    width: 35%;
+    background-color: rgba(167, 165, 165, 0.993);
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .before-and-after::after{
+        left:2px;
+    }
+    .before-and-after::before{
+        right:2px;
+    }
 }

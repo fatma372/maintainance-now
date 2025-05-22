@@ -14,6 +14,7 @@ import {
 import {Provider}  from 'react-redux';
 import {store} from './services/store/store.js';
 import Signup from './pages/Auth/Signup/Signup.jsx';
+import Login from './pages/Auth/Login/Login.jsx';
 
 let router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ let router = createBrowserRouter([
   {
     path:"/signup",
     element: <Signup />
+  },
+  {
+    path:"/login",
+    element: <Login />
   }
 ]);
 
