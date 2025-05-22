@@ -9,7 +9,8 @@ import { faEarthAmericas } from '@fortawesome/free-solid-svg-icons';
 export default function UpperHeader() {
 
     const {lang} = useSelector((state) => state.language);
-    const languageName=lang==="ar"?"العربية":"English";
+    const languageName=lang==="ar"?"English":"العربية";
+   const languagebuttonDir= lang==="ar"?"ltr":"rtl";
     const dispatch = useDispatch();
 
     const handleLang = () => {
@@ -23,10 +24,14 @@ export default function UpperHeader() {
             <SocialMediaIcons/>
         </div>
 
-        <button className="border-l-3 border-[var(--my-green)] px-2 my-1 pb-1" 
+        <button
+        dir={languagebuttonDir}
+        className="border-l-3 border-[var(--my-green)] px-2 my-1 pb-1" 
         onClick={() => handleLang()}>
-            {languageName}
-               <FontAwesomeIcon icon={faEarthAmericas} size="md" className="mx-2"/> {/* Adjust size as needed */}
+           <span>
+             {languageName}
+           </span>
+               <FontAwesomeIcon icon={faEarthAmericas} size="md" className="mx-1"/> {/* Adjust size as needed */}
 
         </button>
 

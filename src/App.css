@@ -39,9 +39,18 @@
     color: white;
 }
 
+.signup-page{
+    background-color: rgba(0, 0, 0, 0.626);
+    position: absolute;
+    width: 100%;
+    max-width: 100svw;
+    top: 0px;
+    left: 0px;
+
+}
+
 
 main{
-    min-height: 80svh;
     background-image: url("background.png");
     background-size: cover;
     background-repeat: no-repeat;

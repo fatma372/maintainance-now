@@ -7,15 +7,15 @@ export default function OurServices() {
 
     return (
         <>
-            <section id='services' dir='dir' className=' py-9 px-11'>
+            <section id='services' dir={dir} className=' py-9 px-11'>
                 <h2 className='text-xl text-center font-bold text-[var(--my-orange)] mb-11 mt-3'>
                     {t.title}
                 </h2>
 
-                <div className='services grid lg:grid-cols-3 sm:grid-cols-2 md:gap-x-30 sm:gap-10 gap-7 md:px-30 sm:px-10 px-7'>
+                <div className='services grid lg:grid-cols-3 sm:grid-cols-2 md:gap-x-30 sm:gap-10 gap-7 md:px-30 sm:px-10 px-5'>
                     {
                         services.map((service, i) =>
-                            <div className='card bg-[var(--my-gray)] flex flex-col items-center justify-center gap-4 p-0 pb-3 rounded-3xl transition-shadow duration-300 hover:-translate-y-1 hover:shadow-lg' key={i} dir={dir} >
+                            <div className='card bg-[var(--my-gray)] flex flex-col items-center justify-center gap-4 p-0 pb-3 rounded-3xl transition-shadow duration-300 hover:-translate-y-1 hover:shadow-lg' key={i} >
                                 <figure>
                                     <img src={`${translations["ar"].ourServices.services[i].title}.png`} className='w-full' alt="" />
 

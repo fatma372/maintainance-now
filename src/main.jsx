@@ -13,12 +13,17 @@ import {
 // imports for redux:
 import {Provider}  from 'react-redux';
 import {store} from './services/store/store.js';
+import Signup from './pages/Auth/Signup/Signup.jsx';
 
 let router = createBrowserRouter([
   {
     path:"/",
     element: <App />
   },
+  {
+    path:"/signup",
+    element: <Signup />
+  }
 ]);
 
 
